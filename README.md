@@ -10,7 +10,6 @@ The solution lives in the package **`origin`**. All other packages in this works
 |------|---------|
 | OS | Ubuntu 24.04 |
 | ROS 2 | Jazzy Jalisco |
-| Simulator | Gazebo (via `turtlebot3_gazebo`) |
 
 ## Repository Contents
 
@@ -96,6 +95,8 @@ ros2 run origin my_node_obs
 | `my_node` | Trajectory tracking in the TurtleBot3 world |
 | `my_node_obs` | Trajectory tracking with obstacle avoidance |
 
-- Start the Gazebo launch **before** running either node, since the nodes depend on the simulated robot's topics.
-- If `ros2 run origin ...` reports that the package is not found, the workspace has not been sourced in that terminal.
-- If you rebuild, re-source `install/local_setup.bash` in every open terminal.
+## Drive Link
+https://drive.google.com/drive/folders/12LeVZR62Zu5OtvGKZfwS50rbZFaooyqC?usp=sharing
+
+## Google Docs Report
+https://docs.google.com/document/d/1-SIBh_EA2H4k-rBWkCfzeAbBHax2jBRVDyHH3bqhVaY/edit?usp=sharing
