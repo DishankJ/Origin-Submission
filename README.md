@@ -99,6 +99,3 @@ ros2 run origin my_node_obs
 - Start the Gazebo launch **before** running either node, since the nodes depend on the simulated robot's topics.
 - If `ros2 run origin ...` reports that the package is not found, the workspace has not been sourced in that terminal.
 - If you rebuild, re-source `install/local_setup.bash` in every open terminal.
-# Origin-Submission
-# Origin-Submission
-# Origin-Submission
