@@ -1,0 +1,6 @@
+**/.vs/
+**/*.suo
+**/*.user
+**/obj/
+**/__pycache__/
+**/*.py[cod]
